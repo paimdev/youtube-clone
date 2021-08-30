@@ -83,7 +83,8 @@ nav {
 .video-section {
   background-color: rgb(248, 242, 242);
 	grid-area: video;
-	width: 820px;
+	width: 720px;
+	padding: 20px 10px 10px 120px;
 }
 
 .recommend-sidebar {
