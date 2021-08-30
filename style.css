@@ -55,6 +55,10 @@ body {
 
 /* End of reset */
 
+body {
+	background-color: rgb(248, 242, 242);
+}
+
 nav {
 	display: flex;
   background-color: white;
@@ -80,18 +84,59 @@ nav {
 	border-radius: 50px;
 }
 
+.video-section {
+	width: 825px;
+}
+
 .video {
-  background-color: rgb(248, 242, 242);
 	grid-area: video;
-	width: 720px;
-	padding: 20px 10px 20px 120px;
+	width: 600px;
+	padding: 20px 0px 20px 120px;
+}
+
+.video-text {
+	padding-left: 120px;
+}
+
+.video-title {
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+.video-info {
+	color: rgb(94, 94, 94);
+}
+
+.channel-bar {
+	padding-top: 10px;
+}
+
+.channel-logo {
+	border-radius: 50px;
+	float: left;
+}
+
+.channel-text {
+	padding: 0 0 15px 60px;
+}
+
+.channel-name {
+	padding-bottom: 5px;
+}
+
+.sub-count {
+	font-size: 13px;
+	color: rgb(87, 85, 85);
+}
+
+.video-description {
+	padding: 0 0 0 60px;
 }
 
 .recommend-sidebar {
-  background-color: rgb(248, 242, 242);
 	grid-area: sidebar;
-	width: 502px;
-	padding: 20px 0 0 0;
+	width: 449px;
+	padding: 20px 0 0 0px;
 }
 
 .recommended-video {
@@ -108,7 +153,7 @@ nav {
 }
 
 .recommended-title {
-	font-size: 20px;
+	font-size: 18px;
 	padding-bottom: 10px;
 }
 
