@@ -57,18 +57,37 @@ body {
 
 nav {
 	display: flex;
-  background-color: aqua;
+  background-color: white;
 	grid-area: nav;
 }
 
+.logo {
+	margin-left: 30px;
+	width: 60px;
+}
+
+.searchbar-container {
+	margin: 10px 250px 5px 250px; 
+}
+
+.searchbar {
+	width: 550px;
+	height: 20px;
+}
+
+.user-profile {
+	width: 40px;
+	border-radius: 50px;
+}
+
 .video-section {
-  background-color: brown;
+  background-color: rgb(248, 242, 242);
 	grid-area: video;
 	width: 820px;
 }
 
 .recommend-sidebar {
-  background-color: chocolate;
+  background-color: rgb(248, 242, 242);
 	grid-area: sidebar;
 	width: 502px;
 }
