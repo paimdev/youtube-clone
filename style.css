@@ -80,15 +80,39 @@ nav {
 	border-radius: 50px;
 }
 
-.video-section {
+.video {
   background-color: rgb(248, 242, 242);
 	grid-area: video;
 	width: 720px;
-	padding: 20px 10px 10px 120px;
+	padding: 20px 10px 20px 120px;
 }
 
 .recommend-sidebar {
   background-color: rgb(248, 242, 242);
 	grid-area: sidebar;
 	width: 502px;
+	padding: 20px 0 0 0;
+}
+
+.recommended-video {
+	margin-top: 10px;
+}
+
+.thumb {
+	float: left;
+	padding-right: 5px;
+}
+
+.recommended-info {
+	padding: 5px
+}
+
+.recommended-title {
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+.channel-info {
+	padding: 5px;
+	color: rgb(109, 108, 108);
 }
